@@ -7,10 +7,12 @@
     tools:context=".SecondActivity">
 
     <TableLayout
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="20dp">
-        <TableRow>
+        <TableRow
+            android:gravity="center">
             <TextView
                 android:text="UserID:"
                 android:textSize="30sp"
@@ -22,7 +24,8 @@
                 android:textSize="30sp"/>
         </TableRow>
 
-        <TableRow>
+        <TableRow
+            android:gravity="center">
             <TextView
                 android:textColor="@color/black"
                 android:text="Password:"
